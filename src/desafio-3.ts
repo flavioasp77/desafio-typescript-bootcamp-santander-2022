@@ -20,3 +20,11 @@ btnAdd.addEventListener('click', () => {
 function clean() {
   soma.value = '';
 }
+
+function limparSaldo() {
+  saldo.innerHTML = '0';
+}
+
+btnLimparSaldo.addEventListener('click', () => {
+  limparSaldo();
+})
