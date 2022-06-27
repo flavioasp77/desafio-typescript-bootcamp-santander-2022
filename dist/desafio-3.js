@@ -19,6 +19,7 @@ function clean() {
 }
 function limparSaldo() {
     saldo.innerHTML = '0';
+    saldoAtual = 0;
 }
 btnLimparSaldo.addEventListener('click', () => {
     limparSaldo();
